@@ -10,6 +10,13 @@ aside:
 > 이 알고리즘에서 증가경로를 찾는 방법은 그래프 알고리즘 중 깊이 우선 탐색(depth-first search, DFS)을 기본적으로 사용하기 때문에 이를 먼저 공부해 보았다.
 
 
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+​```
 
 ## DFS
 
