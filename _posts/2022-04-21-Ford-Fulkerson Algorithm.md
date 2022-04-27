@@ -26,7 +26,7 @@ aside:
 주어진 그래프 G= (v,E)와 출발점 s(source)에 대해 너비 우선 탑색은 s로 부터 도달할 수 있는 모든 정점을 발견하기 위해 G그래프의 간선을 체계적으로 탐색한다.
 
 ```mermaid
-graph TB;
+graph LR;
     A[1]
     B[2]
     C[3]
